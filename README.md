@@ -43,12 +43,12 @@ export default {
 ###### 页面中加入如下代码：
 
 ```
-<xhz-echarts 
-    dom-id="lineId" 
-    chart-type="bar" 
-    multiple 
-    :y-data="yData" 
-    :x-data="xData" 
+<xhz-echarts
+    dom-id="lineId"
+    chart-type="bar"
+    multiple
+    :y-data="yData"
+    :x-data="xData"
     style="height: 500px;width: 1000px">
 </xhz-echarts>
 ```
@@ -202,3 +202,10 @@ export default {
 ### 用法注意事项
 
 - 可在组件上使用内联样式指定图表的宽高，也可传入`chartOption`，或者是`height`以及`width`。此时需要注意的是设置`height`以及`width`的优先级高于`chartOption`，`chartOption`高于内联样式。如以上三种方式都未设置，图表将无法正常显示。
+
+## 更多使用细节
+
+想了解更多内容请联系作者。
+
+- 邮箱：fengce@gxxhz.com
+- qq：1048438791
